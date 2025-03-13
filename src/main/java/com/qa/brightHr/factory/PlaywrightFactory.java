@@ -58,7 +58,7 @@ public class PlaywrightFactory {
     }
 
     public Properties init_properties() throws IOException {
-        String configFilePath = "C:\\Users\\als22\\eclipse-workspace\\Automation_Code\\ZZZZ_BrightHRProject\\src\\test\\resources\\config\\config.properties";
+        String configFilePath = "C:\\Users\\als22\\eclipse-workspace\\Automation_Code\\Z1BrightHRProject\\src\\test\\resources\\config\\config.properties";
         File file = new File(configFilePath);
         FileInputStream ip = new FileInputStream(file);
         prop = new Properties();
